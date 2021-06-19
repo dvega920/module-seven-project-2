@@ -86,6 +86,7 @@ def move_to_room(rooms, current_room, direction, inventory):
         #  IF statement checks to see if next_move contains "exit" if so the loop breaks and the game ends.
         if next_move == 'exit':
             print('Thank you for playing! Goodbye.')
+            break
         #  IF statement checks to see if next_move is one of the rooms dictionary keys.
         #  if so, it will assign current_room with the value of the key it found.
         #  ELSE IF next_move is NOT in directions tuple, show "Invalid Entry" message to user.
