@@ -73,6 +73,7 @@ def move_to_room(rooms, current_room, direction, inventory):
             print('YOU SAVED COOPER!')
             break
         if rooms[current_room]['item'] == 'Dog Catcher':
+            print()
             print('YIKES!! DOG CATCHER!!!')
             print('Cooper\'s gone.')
             print()
