@@ -57,6 +57,7 @@ def show_status(rooms, current_room, inventory):
     print('Inventory Count: {}'.format(len(inventory)))
     print('You are in the {}.'.format(current_room))
     check_for_items(rooms, current_room, inventory)
+    print('--------------------------------------')
 
 
 def user_prompt():
